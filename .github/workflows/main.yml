@@ -1,4 +1,2 @@
 - name: Run a simple command
-  run: |
-    echo "Hello, GitHub Actions!"
-    exit 1
+  run: echo "Hello, GitHub Actions!"
