@@ -1,9 +1,4 @@
-name: CI Lab
-on: [push, pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run a simple command
-        run: echo "Hello, GitHub Actions!"
+- name: Run a simple command
+  run: |
+    echo "Hello, GitHub Actions!"
+    exit 1
